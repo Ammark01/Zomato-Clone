@@ -1,0 +1,14 @@
+header{
+    background-image: linear-gradient(to bottom right, rgba(157, 14, 14, 0), #4F0707), url(../shutterstock.png);
+    background-size: cover;
+    height: 30rem;
+}
+.location{
+    position: absolute;
+    padding-left: 320px;
+}
+.restaurents{
+    position: absolute;
+    padding-left: 590px;
+    margin-top: 0px;
+}

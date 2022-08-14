@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- CREATING THE HEADER -->
+    <header>
+    <!-- CEARTING THE LOGIN AND CREATE BUTTON -->
+        <div class="container-fluid ">
+            <div class="button-container row flex-wrap justify-content-end">
+                <button class="col-auto btn border border-dark border-3 round-3 m-3 p-2">Login</button>
+                <button class="col-auto btn border border-dark border-3 round-3 m-3 p-2">Create a new account</button>
+            </div>
+        </div>
+    <!-- CRAETING THE EDUREKA LOGO -->
+        <div class="adjust pt-5 ">
+            <div class="col-auto text-wrap bg-light text-danger text-center fs-1 fw-bold border border-3 " style="width: 70px; border-radius: 50%; height: 70px; margin-left: 590px; ">
+                <p>e!</p>
+            </div>
+        </div>
+    <!-- AJUSTING THE TEXT AND WRITING CONTENT  -->
+        <div class="names text-center text-white pt-4">
+            <p class="h1 ms-4 my-5">Find the best restaurents, cafes and bars </p>
+        </div>
+    <!-- CREATING THE SEARCH FEILDS FOR PLACES -->
+        <div class="searches d-flex justify-content-center gap-5">
+            <div class="locations col-auto ">
+                <input type="text" placeholder="  search your location" list="location" style=" height: 40px;">
+                <datalist id="location">
+                    <option value="m">Mumbai</option>
+                    <option value="h">Hyderabad</option>
+                    <option value="c">Chennai</option>
+                    <option value="d">Delhi</option>
+                </datalist> 
+            </div>
+        <!-- CREATING THE SEARCH FEILDS FOR RESTAURENTS -->
+            <div class="main-search-field">
+                <input type="text" placeholder="    search for restaurents" list="restaurents" style="height: 40px ; width:300px;">
+                <datalist id="restaurents">
+                    <option value="Niloufer cafe">Niloufer cafe and restaurents</option>
+                    <option value="Shah cafe">Shah ghouse restaurents</option>
+                    <option value="Milan cafe">Milan cafe restaurents</option>
+                    <option value="Bakers cafe">Bakers cafe restaurents</option>
+                </datalist>
+            </div>
+        </div>
+    </header>
+    <!-- ADDITIONAL OPTIONS -->
+    <div class="discover fs-2 pt-5 ms-5 fw-bold ps-5">
+        Quick Searches
+    </div>
+    <!-- TYPES -->
+    <div>
+        <p class="type ps-5 ms-5 fs-4 pt-3 ">Discover restaurents by type of meal</p>
+    </div>
+    <!-- CREATING THE TYPES OF MEALS -->
+    <div class="container d-inline">
+        <div class="row row-cols-6 ps-5 m-2 gap-5">
+        <!-- MEAL FOR BREAKFAST -->
+            <div class=" card row flex-row shadow " style="width: 23rem;">
+                <div class="col-6 ">
+                    <img src="shutterstock_first.png" height="150" width="150">
+                </div>
+                <div class="card-body col-6">
+                    <h5>Breakfast</h5>
+                    <p>Start your day with exclusive Breakfast option </p>
+                </div>
+            </div>
+        <!-- MEAL FOR LUNCH -->
+            <div class=" card row flex-row shadow " style="width: 23rem;">
+                <div class="col-6 " >
+                    <img src="shutterstock_second.png" height="150" width="150">
+                </div>
+                <div class="card-body col-6">
+                    <h5>Lunch</h5>
+                    <p>Start your day with exclusive Breakfast option </p>
+                </div>
+            </div>
+        <!-- MEAL FOR SNACKS -->
+            <div class="card  row flex-row shadow" style="width: 23rem;">
+                <div class="col-6 " >
+                    <img src="shutterstock_third.png" height="150" width="150">
+                </div>
+                <div class="card-body col-6">
+                    <h5>Snacks</h5>
+                    <p>Start your day with exclusive Breakfast option </p>
+                </div>
+            </div>
+        <!-- MEAL FOR DINNER -->
+            <div class="card  row flex-row shadow" style="width: 23rem;">
+                <div class="col-6 " >
+                    <img src="shutterstock_fourth.png" height="150" width="150">
+                </div>
+                <div class="card-body col-6">
+                    <h5>Dinner</h5>
+                    <p>Start your day with exclusive Breakfast option </p>
+                </div>
+            </div>
+        <!-- MEAL FOR DRINKS -->
+            <div class="card  row flex-row shadow" style="width: 23rem;">
+                <div class="col-6 " >
+                    <img src="shutterstock_fifth.png" height="150" width="150">
+                </div>
+                <div class="card-body col-6">
+                    <h5>Drinks</h5>
+                    <p>Start your day with exclusive Breakfast option </p>
+                </div>
+            </div>
+        <!-- MEAL FOR NIGHTLIFE -->
+            <div class="card row flex-row shadow" style="width: 23rem;">
+                <div class="col-6 " >
+                    <img src="shutterstock_sixth.png" height="150" width="150">
+                </div>
+                <div class="card-body col-6">
+                    <h5>Nightlife</h5>
+                    <p>Start your day with exclusive Breakfast option </p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <!-- END -->   
+</body>
+</html>
